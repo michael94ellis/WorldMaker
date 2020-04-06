@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F58B2F0243BC58C001EEFEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F58B2EF243BC58C001EEFEF /* AppDelegate.swift */; };
+		2F58B2F2243BC58C001EEFEF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F58B2F1243BC58C001EEFEF /* art.scnassets */; };
+		2F58B2F4243BC58C001EEFEF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F58B2F3243BC58C001EEFEF /* GameViewController.swift */; };
+		2F58B2F7243BC58C001EEFEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F58B2F5243BC58C001EEFEF /* Main.storyboard */; };
+		2F58B2F9243BC590001EEFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F58B2F8243BC590001EEFEF /* Assets.xcassets */; };
+		2F58B2FC243BC590001EEFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F58B2FA243BC590001EEFEF /* LaunchScreen.storyboard */; };
+		2F58B307243BC590001EEFEF /* WorldMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F58B306243BC590001EEFEF /* WorldMakerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F58B303243BC590001EEFEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F58B2E4243BC58C001EEFEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F58B2EB243BC58C001EEFEF;
+			remoteInfo = WorldMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F58B2EC243BC58C001EEFEF /* WorldMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F58B2EF243BC58C001EEFEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F58B2F1243BC58C001EEFEF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		2F58B2F3243BC58C001EEFEF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2F58B2F6243BC58C001EEFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F58B2F8243BC590001EEFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F58B2FB243BC590001EEFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F58B2FD243BC590001EEFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F58B302243BC590001EEFEF /* WorldMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F58B306243BC590001EEFEF /* WorldMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMakerTests.swift; sourceTree = "<group>"; };
+		2F58B308243BC590001EEFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F58B2E9243BC58C001EEFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F58B2FF243BC590001EEFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F58B2E3243BC58C001EEFEF = {
+			isa = PBXGroup;
+			children = (
+				2F58B2EE243BC58C001EEFEF /* WorldMaker */,
+				2F58B305243BC590001EEFEF /* WorldMakerTests */,
+				2F58B2ED243BC58C001EEFEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F58B2ED243BC58C001EEFEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F58B2EC243BC58C001EEFEF /* WorldMaker.app */,
+				2F58B302243BC590001EEFEF /* WorldMakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F58B2EE243BC58C001EEFEF /* WorldMaker */ = {
+			isa = PBXGroup;
+			children = (
+				2F58B2EF243BC58C001EEFEF /* AppDelegate.swift */,
+				2F58B2F1243BC58C001EEFEF /* art.scnassets */,
+				2F58B2F3243BC58C001EEFEF /* GameViewController.swift */,
+				2F58B2F5243BC58C001EEFEF /* Main.storyboard */,
+				2F58B2F8243BC590001EEFEF /* Assets.xcassets */,
+				2F58B2FA243BC590001EEFEF /* LaunchScreen.storyboard */,
+				2F58B2FD243BC590001EEFEF /* Info.plist */,
+			);
+			path = WorldMaker;
+			sourceTree = "<group>";
+		};
+		2F58B305243BC590001EEFEF /* WorldMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F58B306243BC590001EEFEF /* WorldMakerTests.swift */,
+				2F58B308243BC590001EEFEF /* Info.plist */,
+			);
+			path = WorldMakerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F58B2EB243BC58C001EEFEF /* WorldMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F58B30B243BC590001EEFEF /* Build configuration list for PBXNativeTarget "WorldMaker" */;
+			buildPhases = (
+				2F58B2E8243BC58C001EEFEF /* Sources */,
+				2F58B2E9243BC58C001EEFEF /* Frameworks */,
+				2F58B2EA243BC58C001EEFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldMaker;
+			productName = WorldMaker;
+			productReference = 2F58B2EC243BC58C001EEFEF /* WorldMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F58B301243BC590001EEFEF /* WorldMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F58B30E243BC590001EEFEF /* Build configuration list for PBXNativeTarget "WorldMakerTests" */;
+			buildPhases = (
+				2F58B2FE243BC590001EEFEF /* Sources */,
+				2F58B2FF243BC590001EEFEF /* Frameworks */,
+				2F58B300243BC590001EEFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F58B304243BC590001EEFEF /* PBXTargetDependency */,
+			);
+			name = WorldMakerTests;
+			productName = WorldMakerTests;
+			productReference = 2F58B302243BC590001EEFEF /* WorldMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F58B2E4243BC58C001EEFEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Mellis;
+				TargetAttributes = {
+					2F58B2EB243BC58C001EEFEF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					2F58B301243BC590001EEFEF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2F58B2EB243BC58C001EEFEF;
+					};
+				};
+			};
+			buildConfigurationList = 2F58B2E7243BC58C001EEFEF /* Build configuration list for PBXProject "WorldMaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F58B2E3243BC58C001EEFEF;
+			productRefGroup = 2F58B2ED243BC58C001EEFEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F58B2EB243BC58C001EEFEF /* WorldMaker */,
+				2F58B301243BC590001EEFEF /* WorldMakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F58B2EA243BC58C001EEFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F58B2F2243BC58C001EEFEF /* art.scnassets in Resources */,
+				2F58B2FC243BC590001EEFEF /* LaunchScreen.storyboard in Resources */,
+				2F58B2F9243BC590001EEFEF /* Assets.xcassets in Resources */,
+				2F58B2F7243BC58C001EEFEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F58B300243BC590001EEFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F58B2E8243BC58C001EEFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F58B2F4243BC58C001EEFEF /* GameViewController.swift in Sources */,
+				2F58B2F0243BC58C001EEFEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F58B2FE243BC590001EEFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F58B307243BC590001EEFEF /* WorldMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F58B304243BC590001EEFEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F58B2EB243BC58C001EEFEF /* WorldMaker */;
+			targetProxy = 2F58B303243BC590001EEFEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F58B2F5243BC58C001EEFEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F58B2F6243BC58C001EEFEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F58B2FA243BC590001EEFEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F58B2FB243BC590001EEFEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F58B309243BC590001EEFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F58B30A243BC590001EEFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F58B30C243BC590001EEFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLQC884752;
+				INFOPLIST_FILE = WorldMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mellis.WorldMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F58B30D243BC590001EEFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLQC884752;
+				INFOPLIST_FILE = WorldMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mellis.WorldMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F58B30F243BC590001EEFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLQC884752;
+				INFOPLIST_FILE = WorldMakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mellis.WorldMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldMaker.app/WorldMaker";
+			};
+			name = Debug;
+		};
+		2F58B310243BC590001EEFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLQC884752;
+				INFOPLIST_FILE = WorldMakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mellis.WorldMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldMaker.app/WorldMaker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F58B2E7243BC58C001EEFEF /* Build configuration list for PBXProject "WorldMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F58B309243BC590001EEFEF /* Debug */,
+				2F58B30A243BC590001EEFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F58B30B243BC590001EEFEF /* Build configuration list for PBXNativeTarget "WorldMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F58B30C243BC590001EEFEF /* Debug */,
+				2F58B30D243BC590001EEFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F58B30E243BC590001EEFEF /* Build configuration list for PBXNativeTarget "WorldMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F58B30F243BC590001EEFEF /* Debug */,
+				2F58B310243BC590001EEFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F58B2E4243BC58C001EEFEF /* Project object */;
+}
